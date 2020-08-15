@@ -109,7 +109,7 @@ def frequency():
 # write your find most affected area function here:
 
 
-# Finds and area and return now many times it has been afrected
+# Finds an area and returns how many times it has been affected
 def find_area(area):
   temp = frequency()
   for k, v in temp.items():
@@ -136,7 +136,7 @@ def worst_hur():
 
 
 # write your catgeorize by mortality function here:
-
+# Places the different instances on a scale of how many lives were lost
 def death_scale():
   keys = [0, 1, 2, 3, 4, 5]
   zero = []; one = []; two = []; three = []; four = []; five = []
@@ -160,7 +160,7 @@ def death_scale():
 
 
 
-
+# How much had to go with the different hurricanes
 # write your greatest damage function here:
 def greatest_damage():
   temp = 0
@@ -178,7 +178,7 @@ def greatest_damage():
 
 
 
-
+# Scaling the hurricanes based on how much was spent
 # write your catgeorize by damage function here:
 def damage_scale():
   keys = [0, 1, 2, 3, 4, 5]
