@@ -4,7 +4,7 @@ lose = 50
 money = 100
 
 #Write your game of chance functions here
-
+# Call the result of a coin flip
 def coin_flip(bet, money):
   if money < 1:
     return "You, gritting!"
@@ -31,7 +31,7 @@ def cho_han(bet, money):
   else:
     return b, "You lose " + str(money - lose)
 
-#card picking game
+# card picking game
 def card(money):
   lst = [0]
   lst[0] = random.randint(1, 52)
@@ -48,7 +48,7 @@ def card(money):
     return 'You lose. you have ' + str(lst[0]) + ', and cpt has ' + str(lst[1]) + ". New money is " + str(money - lose) 
 
 
-# roulette
+# roulette game
 def roulette(bet, money):
   r = random.randint(-1, 36)
   #return r
